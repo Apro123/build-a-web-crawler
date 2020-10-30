@@ -1,0 +1,20 @@
+Selenium Guide:
+Step 1 - Download ChromeDriver for Selenium (choose correct chromer version)
+https://chromedriver.chromium.org/downloads
+
+Step 2 - Include ChromeDriver in $PATH (or in python, include file path)
+https://askubuntu.com/questions/60218/how-to-add-a-directory-to-the-path
+
+Step 3 - Test out following code to see if it works
+https://chromedriver.chromium.org/getting-started
+
+Step 4 - Check out TechWithTim
+https://www.youtube.com/watch?feature=youtu.be&v=Xjv1sY630Uc&app=desktop
+
+Test Websites 
+https://webscraper.io/test-sites
+http://example.com/
+
+Optional - Check out guide for using Selenium
+https://medium.com/@igorzabukovec/automate-web-crawling-with-selenium-python-part-1-85113660de96
+
