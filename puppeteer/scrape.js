@@ -5,7 +5,8 @@ const puppeteer = require('puppeteer');
 //     throw "Please provide a URL as the first argument";
 // }
 
-const url = "https://example.com"
+// const url = "https://github.com"
+const url = "https://webscraper.io/test-sites/e-commerce/allinone/computers/tablets"
 
 async function run(url) {
   const browser = await puppeteer.launch({
@@ -19,7 +20,9 @@ async function run(url) {
     deviceScaleFactor: 1
   })
   await page.goto(url);
-  await page.screenshot({path: 'screenshots/example.png'});
+  let items = document.querySelectorAll(".col-sm-4.col-lg-4.col-md-4");
+  console.log(items);
+  // await page.screenshot({path: 'screenshots/example.png'});
   await browser.close();
 };
 
