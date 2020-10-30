@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 #from selenium.webdriver.common.keys import Keys
 
-PATH = "/home/solomondenning/Documents/Q Project/Workshop/Web Crawling/chromedriver_linux64/chromedriver"
+PATH = "YOUR_PATH_TO_chromedriver"
 driver = webdriver.Chrome(PATH)  # Optional argument, if not specified will search path.
 
 # ChromeDriver website example code:
